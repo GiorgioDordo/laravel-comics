@@ -17,7 +17,12 @@ Route::get('/', function () {
     return view('pages.home');
 });
 
-Route::get('/manga', function () {
+Route::get('/mangas', function () {
     $mangas = config("db.manga");
     return view('pages.manga', compact("mangas"));
 })-> name('manga');
+
+Route::get('/comic', function () {
+    $comics = config("db.comics");
+    return view('pages.comics', compact("comics"));
+})-> name('comic');
