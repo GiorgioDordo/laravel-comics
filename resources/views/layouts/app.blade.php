@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    "@include("partials.header")"
+    @include("partials.header")
     {{-- heaeder --}}
     {{-- inserire contenuti da chi estende --}}
     <main>
