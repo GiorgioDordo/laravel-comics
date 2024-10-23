@@ -12,27 +12,27 @@
         </div>
         <div class="row d-flex justify-content-center">
             @foreach ($mangas as $manga)
-            <div class="col-3 card m-3">
-                <ul class="list-unstyled">
-                    <li>
-                        <img src="{{$manga["immagine"]}}" alt="">
-                    </li>
-                    <li>
+            <div class="col-3 m-3 p-3 d-flex flex-column align-items-center">
+                <div class="manga-cover">
+                    <img class="border card-img-top" src="{{$manga["immagine"]}}" alt="icon">
+                </div>
+                <div class="card-body d-flex flex-column align-items-center">
+                    <p>
                         <strong>Titolo:</strong> {{$manga["titolo"]}}
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <strong>Autore:</strong> {{$manga["autore"]}}
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <strong>Genere:</strong> {{$manga["genere"]}}
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <strong>Editore:</strong> {{$manga["editore"]}}
-                    </li>
-                    <li>
+                    </p>
+                    <p>
                         <strong>Prezzo:</strong> {{$manga["prezzo"]}} <strong>€</strong>
-                    </li>
-                </ul>
+                    </p>
+                </div>
             </div>
             @endforeach
         </div>

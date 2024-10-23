@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('pages.home');
 });
 
 Route::get('/manga', function () {
     $mangas = config("db.manga");
     return view('pages.manga', compact("mangas"));
-});
+})-> name('manga');

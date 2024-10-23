@@ -7,7 +7,7 @@ return[
         'genere' => 'Avventura, Fantasy',
         'editore' => 'Shueisha',
         'prezzo' => 7.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/81bX9P7-6cL.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/2/253146.jpg'
     ],
     [
         'titolo' => 'Naruto',
@@ -15,7 +15,7 @@ return[
         'genere' => 'Azione, Avventura',
         'editore' => 'Shueisha',
         'prezzo' => 6.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/81K1F2MG1VL.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/3/249658.jpg'
     ],
     [
         'titolo' => 'Attack on Titan',
@@ -23,7 +23,7 @@ return[
         'genere' => 'Azione, Horror',
         'editore' => 'Kodansha',
         'prezzo' => 9.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/81ZtS5WkYWL.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/2/37846.jpg'
     ],
     [
         'titolo' => 'My Hero Academia',
@@ -31,7 +31,7 @@ return[
         'genere' => 'Azione, Supereroi',
         'editore' => 'Shueisha',
         'prezzo' => 8.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/81tQ1uBCzVL.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/1/209370.jpg'
     ],
     [
         'titolo' => 'Death Note',
@@ -39,7 +39,7 @@ return[
         'genere' => 'Mystery, Thriller',
         'editore' => 'Shueisha',
         'prezzo' => 10.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/81pCkB6-9cL.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/1/258245.jpg'
     ],
     [
         'titolo' => 'Fullmetal Alchemist',
@@ -47,7 +47,7 @@ return[
         'genere' => 'Azione, Fantascienza',
         'editore' => 'Square Enix',
         'prezzo' => 9.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/91V06rHkGpL.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/1/202288.jpg'
     ],
     [
         'titolo' => 'Demon Slayer',
@@ -55,7 +55,7 @@ return[
         'genere' => 'Azione, Avventura',
         'editore' => 'Shueisha',
         'prezzo' => 8.49,
-        'immagine' => 'https://m.media-amazon.com/images/I/81Zkl2p-jHL.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/3/179023.jpg'
     ],
     [
         'titolo' => 'Tokyo Ghoul',
@@ -63,7 +63,7 @@ return[
         'genere' => 'Horror, Azione',
         'editore' => 'Shueisha',
         'prezzo' => 7.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/81e18c9F09L.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/3/114037.jpg'
     ],
     [
         'titolo' => 'One Punch Man',
@@ -71,7 +71,7 @@ return[
         'genere' => 'Azione, Commedia',
         'editore' => 'Shueisha',
         'prezzo' => 9.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/81mW+IFR8uL.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/3/80661.jpg'
     ],
     [
         'titolo' => 'Dragon Ball',
@@ -79,7 +79,7 @@ return[
         'genere' => 'Azione, Avventura',
         'editore' => 'Shueisha',
         'prezzo' => 6.99,
-        'immagine' => 'https://m.media-amazon.com/images/I/81wrfD8C14L.jpg'
+        'immagine' => 'https://cdn.myanimelist.net/images/manga/1/267793.jpg'
     ]
 ]
     ];
