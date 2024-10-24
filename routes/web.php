@@ -34,8 +34,10 @@ Route::get('/gadgets', function () {
 
 Route::get('/comics/{id}', function (string $id) {
     $comics = config('db.comics');
+    if (isset($comics[$id])) {
     $comic = $comics[$id];
-    dd($comic);
-
-    return view('comics.show');
-})-> name('home');
+    return view('comics.show', compact('comic'));
+    } else {
+        abort(404);
+    }
+})-> name('comics.show');

@@ -11,15 +11,16 @@
             </h1>
         </div>
         <div class="row d-flex justify-content-center">
-            @foreach ($comics as $comic)
+            @foreach ($comics as $id => $comic)
             <div class="col-3 m-3 p-3 d-flex flex-column align-items-center border rounded">
                 <div class="manga-cover">
                     <img class="border card-img-top" src="{{$comic["thumb"]}}" alt="icon">
                 </div>
                 <div class="card-body text-center d-flex flex-column justify-content-end mt-2">
-                    <p>
+                    <a href="{{route("comics.show", $id)}}">
                         <strong>{{$comic["title"]}}</strong>
-                    </p>
+                    </a>
+
 
                     <p>
                         {{$comic["series"]}}
