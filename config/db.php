@@ -1,5 +1,6 @@
 <?php
 return[
+    // ARRAY ASSOCIATIVO MANGA
  "manga" => [
     [
         'titolo' => 'One Piece',
@@ -83,6 +84,8 @@ return[
     ]
     ],
 
+
+    // ARRAY ASSOCIATIVO COMICS
     "comics" => [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
@@ -192,8 +195,89 @@ return[
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
+        ],
+
+
+
+        // ARRAY ASSOCIATIVO GADGETS
+    "gadgets" => [
+        [
+            "nome" => "Tazza Marvel Avengers",
+            "prezzo" => 14.99,
+            "descrizione" => "Tazza da caffè con i personaggi dei Marvel Avengers stampati.",
+            "disponibilità" => true,
+            "categoria" => "Comics",
+            "url_immagine" => "https://static.posters.cz/image/750webp/238432.webp"
+        ],
+        [
+            "nome" => "Poster One Piece - Cappello di Paglia",
+            "prezzo" => 9.99,
+            "descrizione" => "Poster di alta qualità con la ciurma di Cappello di Paglia da One Piece.",
+            "disponibilità" => false,
+            "categoria" => "Manga",
+            "url_immagine" => "https://m.media-amazon.com/images/I/71LZMQVLDiL.__AC_SX300_SY300_QL70_ML2_.jpg"
+        ],
+        [
+            "nome" => "Zaino Naruto - Villaggio della Foglia",
+            "prezzo" => 49.99,
+            "descrizione" => "Zaino ispirato alla serie Naruto, con il simbolo del Villaggio della Foglia.",
+            "disponibilità" => true,
+            "categoria" => "Manga",
+            "url_immagine" => "https://img01.ztat.net/article/spp-media-p1/aadcc34ad7e846179311baa82932a9a7/741c5d97b5944bb180124a5a02f7e097.jpg?imwidth=1800&filter=packshot"
+        ],
+        [
+            "nome" => "Portachiavi Spider-Man",
+            "prezzo" => 5.99,
+            "descrizione" => "Portachiavi in metallo con il volto di Spider-Man.",
+            "disponibilità" => true,
+            "categoria" => "Comics",
+            "url_immagine" => "https://m.media-amazon.com/images/I/71YyM8SD1nL._AC_SX466_.jpg"
+        ],
+        [
+            "nome" => "Cappello My Hero Academia - All Might",
+            "prezzo" => 19.99,
+            "descrizione" => "Cappello con il simbolo di All Might dalla serie My Hero Academia.",
+            "disponibilità" => true,
+            "categoria" => "Manga",
+            "url_immagine" => "https://m.media-amazon.com/images/I/71ql-EjvZKL._AC_SX466_.jpg"
+        ],
+        [
+            "nome" => "Puzzle DC Comics - Justice League",
+            "prezzo" => 12.99,
+            "descrizione" => "Puzzle da 500 pezzi con i supereroi della Justice League.",
+            "disponibilità" => true,
+            "categoria" => "Comics",
+            "url_immagine" => "https://m.media-amazon.com/images/I/A1F1ZVC-WjL._AC_SX466_.jpg"
+        ],
+        [
+            "nome" => "Tappetino per mouse Attack on Titan",
+            "prezzo" => 8.99,
+            "descrizione" => "Tappetino per mouse con illustrazioni della serie Attack on Titan.",
+            "disponibilità" => true,
+            "categoria" => "Manga",
+            "url_immagine" => "https://m.media-amazon.com/images/I/91uuXN1FakL._AC_SX425_.jpg"
+        ],
+        [
+            "nome" => "Orologio da parete Batman",
+            "prezzo" => 24.99,
+            "descrizione" => "Orologio da parete a tema Batman con il famoso logo a pipistrello.",
+            "disponibilità" => true,
+            "categoria" => "Comics",
+            "url_immagine" => "https://m.media-amazon.com/images/I/71mRvIhzU6L.__AC_SX300_SY300_QL70_ML2_.jpg"
+        ],
+        [
+            "nome" => "Lampada LED Dragon Ball - Sfera del Drago",
+            "prezzo" => 34.99,
+            "descrizione" => "Lampada LED a forma di Sfera del Drago, perfetta per i fan di Dragon Ball.",
+            "disponibilità" => true,
+            "categoria" => "Manga",
+            "url_immagine" => "https://m.media-amazon.com/images/I/7159K95GjeL._AC_SX425_.jpg"
+        ]
     ]
+
     ];
+
+
 
 
 

@@ -12,22 +12,23 @@
         </div>
         <div class="row d-flex justify-content-center">
             @foreach ($comics as $comic)
-            <div class="col-3 m-3 p-3 d-flex flex-column align-items-center">
+            <div class="col-3 m-3 p-3 d-flex flex-column align-items-center border rounded">
                 <div class="manga-cover">
                     <img class="border card-img-top" src="{{$comic["thumb"]}}" alt="icon">
                 </div>
-                <div class="card-body text-center">
+                <div class="card-body text-center d-flex flex-column justify-content-end mt-2">
                     <p>
-                        <strong>Titolo:</strong> {{$comic["title"]}}
+                        <strong>{{$comic["title"]}}</strong>
                     </p>
 
                     <p>
-                        <strong>Genere:</strong> {{$comic["series"]}}
+                        {{$comic["series"]}}
                     </p>
 
                     <p>
-                        <strong>Prezzo:</strong> {{$comic["price"]}} <strong>€</strong>
+                        {{$comic["price"]}} €
                     </p>
+                    <button type="button" class="btn btn-light"><strong>Aggiungi al carrello</strong></button>
                 </div>
             </div>
             @endforeach

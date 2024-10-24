@@ -3,14 +3,14 @@
 
 header {
     height: 100px;
+    position: sticky;
+    background-color: beige;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .manga-cover {
-    width: 246px;
-    height: 386px;
-
-    img {
-        height: 100%;
-        width: 100%;
-    }
+    max-width: 246px;
+    max-height: 386px;
 }

@@ -22,7 +22,20 @@ Route::get('/mangas', function () {
     return view('pages.manga', compact("mangas"));
 })-> name('manga');
 
-Route::get('/comic', function () {
+Route::get('/comics', function () {
     $comics = config("db.comics");
-    return view('pages.comics', compact("comics"));
+    return view('comics.comic', compact("comics"));
 })-> name('comic');
+
+Route::get('/gadgets', function () {
+    $gadgets = config("db.gadgets");
+    return view('pages.gadgets', compact("gadgets"));
+})-> name('gadget');
+
+Route::get('/comics/{id}', function (string $id) {
+    $comics = config('db.comics');
+    $comic = $comics[$id];
+    dd($comic);
+
+    return view('comics.show');
+})-> name('home');
